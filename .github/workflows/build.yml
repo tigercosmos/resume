@@ -1,0 +1,22 @@
+name: Build
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: |
+            resume.tex
+            coverletter.tex
+          latexmk_use_xelatex: true
+      - name: Generate Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: build-pdf
+          path: |
+            *.pdf
