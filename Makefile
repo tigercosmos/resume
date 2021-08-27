@@ -18,4 +18,4 @@ coverletter.pdf: coverletter.tex
 	$(CC) $<
 
 clean:
-	rm -rf *.pdf
+	rm -rf *.aux *.lof *.log *.lot *.fls *.out *.toc *.pdf
