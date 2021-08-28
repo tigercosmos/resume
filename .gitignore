@@ -9,6 +9,8 @@
 *.toc
 *.pdf
 
+!resume.pdf
+
 ## Intermediate documents:
 *.dvi
 *-converted-to.*
