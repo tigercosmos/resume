@@ -200,7 +200,7 @@
 \newcommand*{\paragraphstyle}{\fontsize{9pt}{1em}\bodyfontlight\upshape\color{text}}
 
 % For elements of entry
-\newcommand*{\entrytitlestyle}[1]{\vspace{-5mm}{\fontsize{10pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
+\newcommand*{\entrytitlestyle}[1]{\vspace{-4.2mm}{\fontsize{10pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
 \newcommand*{\entrypositionstyle}[1]{\vspace{-1mm}{\fontsize{8pt}{1em}\bodyfont\bfseries\color{graytext} #1}}
 \newcommand*{\entrydatestyle}[1]{\vspace{-1mm}{\fontsize{8pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
 \newcommand*{\entrylocationstyle}[1]{\vspace{-3mm}{\fontsize{9pt}{1em}\bodyfontlight\slshape\color{awesome} #1}}
