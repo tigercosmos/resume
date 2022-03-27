@@ -10,6 +10,7 @@ build: $(foreach x, coverletter resume, $x.pdf)
 
 resume.pdf: resume.tex $(RESUME_SRCS)
 	$(CC) $<
+	cp resume.pdf anchi_liu.pdf
 
 cv.pdf: cv.tex $(CV_SRCS)
 	$(CC) $<
