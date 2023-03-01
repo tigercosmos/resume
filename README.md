@@ -5,7 +5,6 @@ Download the resume: [Click Me](https://github.com/tigercosmos/resume/raw/master
 ## Build
 
 ```
-make install
 make
 ```
 
