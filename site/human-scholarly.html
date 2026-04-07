@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yi-Xi Chen | Human Scholarly</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body data-page="variant" data-theme="human-scholarly">
+    <div class="site-shell">
+      <header class="site-nav">
+        <a class="site-mark" href="./index.html">Style Study</a>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#publications">Publications</a>
+          <a href="#resume">Resume</a>
+          <a href="#community">Community</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero-block" id="about">
+          <div class="hero-main">
+            <p class="hero-kicker" id="hero-role"></p>
+            <h1 id="hero-name"></h1>
+            <p class="hero-summary" id="hero-summary"></p>
+            <div class="hero-actions" id="hero-actions"></div>
+          </div>
+          <aside class="hero-side">
+            <div class="aside-card">
+              <p class="aside-label">Based In</p>
+              <p class="aside-value" id="hero-location"></p>
+            </div>
+            <div class="aside-card">
+              <p class="aside-label">What I Work On</p>
+              <ul id="focus-list"></ul>
+            </div>
+          </aside>
+        </section>
+
+        <section class="content-section" id="publications">
+          <div class="section-head">
+            <p class="section-kicker">Research</p>
+            <h2>Papers And Preprints</h2>
+          </div>
+          <div class="publication-list" id="publications-list"></div>
+        </section>
+
+        <section class="content-section split-section" id="resume">
+          <div>
+            <div class="section-head">
+              <p class="section-kicker">Experience</p>
+              <h2>Recent Work</h2>
+            </div>
+            <div class="entry-list" id="experience-list"></div>
+          </div>
+          <div>
+            <div class="section-head">
+              <p class="section-kicker">Resume</p>
+              <h2>Education And Tools</h2>
+            </div>
+            <div class="entry-list" id="education-list"></div>
+            <div class="skills-list" id="skills-list"></div>
+          </div>
+        </section>
+
+        <section class="content-section" id="community">
+          <div class="section-head">
+            <p class="section-kicker">Community</p>
+            <h2>Talks, Sessions, And Outreach</h2>
+          </div>
+          <div class="talk-list" id="talks-list"></div>
+        </section>
+
+        <section class="content-section contact-section" id="contact">
+          <div class="section-head">
+            <p class="section-kicker">Contact</p>
+            <h2>Reach Out</h2>
+          </div>
+          <div class="contact-links" id="contact-links"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./data/resume-data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

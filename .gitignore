@@ -28,3 +28,6 @@ coverletter.synctex.gz
 ## Mac OS X metadata files:
 *.DS_Store
 
+# Ignore plans directory
+plans/
+

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yi-Xi Chen | Systems Engineer</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body data-page="variant" data-theme="systems-engineer">
+    <div class="site-shell">
+      <header class="system-topbar">
+        <a class="site-mark" href="./index.html">Style Study</a>
+        <nav class="system-nav">
+          <a href="#about">About</a>
+          <a href="#news">News</a>
+          <a href="./publications.html">Publications</a>
+          <a href="#resume">Resume</a>
+          <a href="#community">Community</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="system-topbar-actions" id="hero-actions"></div>
+      </header>
+
+      <main class="system-home">
+        <section class="system-hero" id="about">
+          <div class="system-hero-copy">
+            <p class="hero-kicker" id="hero-role"></p>
+            <h1 id="hero-name"></h1>
+            <p class="hero-summary" id="hero-summary"></p>
+          </div>
+          <div class="system-status-panel">
+            <div class="system-status-card">
+              <p class="aside-label">Current Base</p>
+              <p class="aside-value" id="hero-location"></p>
+            </div>
+            <div class="system-status-card">
+              <p class="aside-label">Research Themes</p>
+              <div class="focus-grid compact-focus" id="focus-grid"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="system-panel system-panel-large" id="news">
+          <div class="section-head">
+            <p class="section-kicker">News</p>
+            <h2>Recent Updates</h2>
+          </div>
+          <div class="news-list" id="news-list"></div>
+        </section>
+
+        <section class="system-panel" id="publications">
+          <div class="section-head">
+            <p class="section-kicker">Publications</p>
+            <h2>Selected Research Output</h2>
+            <p class="section-note">
+              Homepage shows highlights only. Open the full publications page for the complete list.
+            </p>
+          </div>
+          <div class="publication-rail publication-grid" id="publication-rail"></div>
+          <div class="panel-actions">
+            <a class="action-link primary" href="./publications.html">View all publications</a>
+          </div>
+        </section>
+
+        <section class="system-grid" id="resume">
+          <section class="system-panel system-panel-large">
+            <div class="section-head">
+              <p class="section-kicker">Resume</p>
+              <h2>Experience</h2>
+            </div>
+            <div class="experience-grid" id="experience-grid"></div>
+          </section>
+
+          <section class="system-panel">
+            <div class="section-head">
+              <p class="section-kicker">Resume</p>
+              <h2>Education And Current Focus</h2>
+            </div>
+            <div class="background-stack" id="background-stack"></div>
+            <div class="skills-list systems-skills" id="skills-list"></div>
+          </section>
+        </section>
+
+        <section class="system-panel" id="community">
+          <div class="section-head">
+            <p class="section-kicker">Community</p>
+            <h2>Talks, Sessions, And Open-Source Events</h2>
+          </div>
+          <div class="talk-strip" id="talks-strip"></div>
+        </section>
+
+        <footer class="system-footer" id="contact">
+          <div>
+            <p class="section-kicker">Contact</p>
+            <h2>Open To Research And Systems Conversations</h2>
+          </div>
+          <div class="contact-links" id="contact-links"></div>
+        </footer>
+      </main>
+    </div>
+
+    <script src="./data/resume-data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
