@@ -21,10 +21,11 @@
     {
       \vspace{-3mm}
       \begin{cvitems} % Description(s) of experience/contributions/knowledge
-  \item {\textbf{Second-largest contributor} (\textbf{255 merged PRs}, 67k lines) to a C++/Python numerical toolkit: array core, agent system, 2D canvas system, time-series and MCAP/ROS 2 ingestion, and the Pilot GUI. \href{https://github.com/solvcon/solvcon/pulls?q=is:pr+is:merged+author:tigercosmos}{\textcolor{awesome}{[PRs]}}}
-  \item {Built the \textbf{AI agent subsystem}: one interface over Claude, Codex, and OpenAI-compatible backends, \textbf{sandboxed} bounded-loop execution, and tool calling that drives the modules and GUI.}
-  \item {Implemented the NumPy-like array interface. Presented at \textbf{PyCon JP 2024}.}
-  \item {Wrote the project's \textbf{agent governance}: coding style, project development guideline and review process for agents; agent configuration based on different providers.}
+  \item {Designed and built the \textbf{AI agent runtime} in Python: a \textbf{bounded-loop execution engine} with a step budget, where a failed tool call returns to the model as an observation to repair.}
+  \item {\textbf{Pluggable model backends} behind one interface and registry: Claude, Codex, and OpenAI-compatible HTTP, switchable at runtime. \textbf{Guardrails}: sandboxed execution and JSON Schema validation of every tool call.}
+  \item {\textbf{Context management}: state inventory and replayed history per request; cut tool definitions from \textbf{27\,KB to 3.3\,KB}.}
+  \item {Wrote the project's \textbf{agent governance}: coding style, development guideline, and review process for coding agents.}
+  \item {\textbf{Second-largest contributor} (\textbf{255 merged PRs}, 67k lines) to this C++/Python numerical toolkit: array core, 2D canvas, time-series and MCAP/ROS 2 ingestion, Pilot GUI. Presented at \textbf{PyCon JP 2024}. \href{https://github.com/solvcon/solvcon/pulls?q=is:pr+is:merged+author:tigercosmos}{\textcolor{awesome}{[PRs]}}}
       \end{cvitems}
     }
     \vspace{2mm}
@@ -37,7 +38,7 @@
     {
       \vspace{-3mm}
       \begin{cvitems} % Description(s) of experience/contributions/knowledge
-  \item {\textbf{One of five core maintainers} since 2024 for a \textbf{3.1k-star} multi-platform C++ packet-processing library: performance, CI/CD, protocol support.}
+  \item {\textbf{One of five core maintainers} since 2024 of a \textbf{3.1k-star} C++ packet-processing library: performance, CI/CD, protocol support.}
       \end{cvitems}
     }
 
