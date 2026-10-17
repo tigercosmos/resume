@@ -1,0 +1,26 @@
+### TeX ###
+## Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.pdf
+.texmf-cache/
+
+!resume.pdf
+
+## Intermediate documents:
+*.dvi
+*-converted-to.*
+
+### Editor ###
+## Vim & Emacs temp files:
+.*sw[op]
+*~
+
+### Mac OS X ###
+## Mac OS X metadata files:
+*.DS_Store
